@@ -1,11 +1,6 @@
 ##push fizz if multiple of 3
 ##push buzz if multiple of 5
 ##otherwise push number
-
-
-##use of comments
-
-
 def fizzbuzz(number): # use of functions
     returnStatement=''
     conditions=[(number%3==0,'Fizz'),(number%5==0,'Buzz'),[-1,number]] # use of tuples and lists
